@@ -8,7 +8,7 @@ from anndata import AnnData
 from pyro import clear_param_store
 from pyro.infer import Trace_ELBO, TraceEnum_ELBO
 from pyro.nn import PyroModule
-from scvi import REGISTRY_KEYS
+from scvi._constants import REGISTRY_KEYS
 from scvi.data import AnnDataManager
 from scvi.data.fields import (
     CategoricalJointObsField,
